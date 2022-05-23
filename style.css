@@ -1,0 +1,26 @@
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    /* pour que les images restent toujours au centre de l'écran quel que soit sa dimension */
+    max-width: 1000px;
+}
+
+.container img{
+    padding: 5px;
+    /* on force la dimension des images */
+    height: 200px;
+    width: 300px;
+}
